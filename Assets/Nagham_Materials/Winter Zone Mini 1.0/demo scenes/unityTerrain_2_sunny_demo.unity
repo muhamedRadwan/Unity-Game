@@ -115,7 +115,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &209322995
+--- !u!1 &753957938
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1339475880474352, guid: 3b95be3def643d145ab1cf52aa0188a3,
@@ -123,9 +123,9 @@ GameObject:
   m_PrefabInternal: {fileID: 1294378179}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 209322998}
-  - component: {fileID: 209322997}
-  - component: {fileID: 209322996}
+  - component: {fileID: 753957941}
+  - component: {fileID: 753957940}
+  - component: {fileID: 753957939}
   m_Layer: 0
   m_Name: Terrain_2_prefab
   m_TagString: Untagged
@@ -133,24 +133,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!154 &209322996
+--- !u!154 &753957939
 TerrainCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 154819135296402212, guid: 3b95be3def643d145ab1cf52aa0188a3,
     type: 2}
   m_PrefabInternal: {fileID: 1294378179}
-  m_GameObject: {fileID: 209322995}
+  m_GameObject: {fileID: 753957938}
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 5c19a077a247bd94685cbc6bebf5d4ae, type: 2}
   m_EnableTreeColliders: 1
---- !u!218 &209322997
+--- !u!218 &753957940
 Terrain:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 218683497070972362, guid: 3b95be3def643d145ab1cf52aa0188a3,
     type: 2}
   m_PrefabInternal: {fileID: 1294378179}
-  m_GameObject: {fileID: 209322995}
+  m_GameObject: {fileID: 753957938}
   m_Enabled: 1
   serializedVersion: 3
   m_TerrainData: {fileID: 15600000, guid: 5c19a077a247bd94685cbc6bebf5d4ae, type: 2}
@@ -176,13 +176,13 @@ Terrain:
   m_BakeLightProbesForTrees: 1
   m_ScaleInLightmap: 0.0256
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
---- !u!4 &209322998
+--- !u!4 &753957941
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4318825506812168, guid: 3b95be3def643d145ab1cf52aa0188a3,
     type: 2}
   m_PrefabInternal: {fileID: 1294378179}
-  m_GameObject: {fileID: 209322995}
+  m_GameObject: {fileID: 753957938}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -31, y: 0, z: 296}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -231,7 +231,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3b95be3def643d145ab1cf52aa0188a3, type: 2}
-  m_RootGameObject: {fileID: 209322995}
+  m_RootGameObject: {fileID: 753957938}
   m_IsPrefabParent: 0
 --- !u!1 &1417385936
 GameObject:

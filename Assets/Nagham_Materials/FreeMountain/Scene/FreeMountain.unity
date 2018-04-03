@@ -333,16 +333,16 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &1578089981
+--- !u!1 &1955018359
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 162790, guid: 97978387d041db2429e6dabd7b1c4f8f, type: 2}
   m_PrefabInternal: {fileID: 2028123024}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1578089984}
-  - component: {fileID: 1578089983}
-  - component: {fileID: 1578089982}
+  - component: {fileID: 1955018362}
+  - component: {fileID: 1955018361}
+  - component: {fileID: 1955018360}
   m_Layer: 0
   m_Name: Free_Mountain
   m_TagString: Untagged
@@ -350,13 +350,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!23 &1578089982
+--- !u!23 &1955018360
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2315166, guid: 97978387d041db2429e6dabd7b1c4f8f,
     type: 2}
   m_PrefabInternal: {fileID: 2028123024}
-  m_GameObject: {fileID: 1578089981}
+  m_GameObject: {fileID: 1955018359}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -385,20 +385,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &1578089983
+--- !u!33 &1955018361
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3390856, guid: 97978387d041db2429e6dabd7b1c4f8f,
     type: 2}
   m_PrefabInternal: {fileID: 2028123024}
-  m_GameObject: {fileID: 1578089981}
+  m_GameObject: {fileID: 1955018359}
   m_Mesh: {fileID: 4300000, guid: 633aba7763524e74d8aed8ad42e74506, type: 3}
---- !u!4 &1578089984
+--- !u!4 &1955018362
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400386, guid: 97978387d041db2429e6dabd7b1c4f8f, type: 2}
   m_PrefabInternal: {fileID: 2028123024}
-  m_GameObject: {fileID: 1578089981}
+  m_GameObject: {fileID: 1955018359}
   m_LocalRotation: {x: 0.000000021855694, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1.6172156, z: 1}
@@ -447,5 +447,5 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 97978387d041db2429e6dabd7b1c4f8f, type: 2}
-  m_RootGameObject: {fileID: 1578089981}
+  m_RootGameObject: {fileID: 1955018359}
   m_IsPrefabParent: 0
