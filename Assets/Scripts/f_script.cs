@@ -10,7 +10,7 @@ public class f_script : MonoBehaviour {
 
 
 	void Start () {
-		cube = GameObject.Find("final");
+		cube = GameObject.Find("TheEndPanel");
 		player = GameObject.Find("Player");
 
 	}

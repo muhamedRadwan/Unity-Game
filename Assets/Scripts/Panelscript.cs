@@ -51,7 +51,7 @@ public class Panelscript : MonoBehaviour {
 			if (solve == written.GetComponent<Text>().text || solve1 == written.GetComponent<Text>().text)
 			{
 				Debug.Log("Sucess");
-				SceneManager.LoadScene("forest");
+				SceneManager.LoadScene("Snow Level");
 				Panel.SetActive(false);
 
 			}

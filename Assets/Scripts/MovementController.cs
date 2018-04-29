@@ -2,23 +2,20 @@
 //using System.Collections;
 //using System.Collections.Generic;
 
-public class MovementController : MonoBehaviour {
 
+
+public class MovementController : MonoBehaviour {
+	public Transform mainCamera;
 	public bool isGrounded;
 	private float speed;
 	public float rotSpeed;
 	public float jumpHeight;
 	//walk speed
-	private float w_speed = 0.05f;
+	private float w_speed = 0.07f;
 	//rotation speed
-	private float rot_speed = 1.0f;
+	private float rot_speed = 2.0f;
 	Rigidbody rb;
 	Animator anim;
-
-	//startNG
-
-
-	//END
 
 	void Start () {
 		rb = GetComponent<Rigidbody>();
@@ -39,7 +36,7 @@ public class MovementController : MonoBehaviour {
 				    speed = w_speed;
 				    movementControl("WalkingBackward");
 			      }
-			else if (Input.GetKey (KeyCode.LeftShift)) {
+			     else if (Input.GetKey (KeyCode.LeftShift)) {
 				speed = 2f;
 				movementControl("Running");
 			     } 
@@ -65,7 +62,7 @@ public class MovementController : MonoBehaviour {
 			var y = Input.GetAxis("Horizontal") * rotSpeed;
 			transform.Translate(0, 0, z);
 			transform.Rotate(0, y, 0);
-
+			//jumping function
 			if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
 			{
 				anim.SetTrigger("isJumping");
@@ -76,10 +73,11 @@ public class MovementController : MonoBehaviour {
 
 
 		}
+		this.transform.rotation = mainCamera.rotation;
+
 		}
 
-		//jumping function
-
+		
 
 
 	void movementControl(string state)
